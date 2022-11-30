@@ -1,9 +1,9 @@
 import pygame
 import sys
-#import player
-from renderer import renderer
-_renderer = renderer() 
-
+from player import Player
+#from renderer import renderer
+#_renderer = renderer() 
+_player = Player()
 #_player = player()
 #init pygame
 pygame.init
